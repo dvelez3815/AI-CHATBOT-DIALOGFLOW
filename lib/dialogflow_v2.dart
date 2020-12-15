@@ -66,7 +66,7 @@ class _HomePageDialogflowV2 extends State<HomePageDialogflowV2> {
     _textController.clear();
     ChatMessage message = new ChatMessage(
       text: text,
-      name: "User",
+      name: "Usuario",
       type: true,
     );
     setState(() {
@@ -140,7 +140,7 @@ class ChatMessage extends StatelessWidget {
       ),
       new Container(
         margin: const EdgeInsets.only(left: 16.0),
-        child: new CircleAvatar(child: new Text(this.name[0])),
+        child: new CircleAvatar(child: Image.asset("assets/graduado.png",)),
       ),
     ];
   }
