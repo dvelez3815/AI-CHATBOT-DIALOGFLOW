@@ -9,6 +9,8 @@
 .history
 .svn/
 
+assets/token.json
+
 # IntelliJ related
 *.iml
 *.ipr
@@ -43,3 +45,4 @@ app.*.map.json
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 
 key.properties
+
