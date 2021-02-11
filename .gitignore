@@ -1,3 +1,6 @@
+
+
+
 # Miscellaneous
 *.class
 *.log
@@ -9,7 +12,7 @@
 .history
 .svn/
 
-assets/token.json
+
 
 # IntelliJ related
 *.iml
@@ -32,6 +35,9 @@ assets/token.json
 .pub/
 /build/
 
+
+tokens/
+
 # Web related
 lib/generated_plugin_registrant.dart
 
@@ -45,4 +51,7 @@ app.*.map.json
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 
 key.properties
+
+
+
 
